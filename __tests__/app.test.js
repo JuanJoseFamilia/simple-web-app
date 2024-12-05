@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../src/index'); // Ruta correcta del archivo de la aplicación
+const app = require('../src/index');
 
 describe('index tests', () => {
   it('should return Hello World', async () => {
